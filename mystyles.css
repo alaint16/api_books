@@ -1,0 +1,79 @@
+body {
+	background-position: bottom;
+	background-image: url("images/pexels-photo-24873.jpg");
+	background-position: cover;
+	background-repeat: no-repeat;]
+	margin:0;
+	padding: 0;
+}
+
+.bookform{
+	margin:0 auto;
+	width: 70%;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.title {
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+	margin-top: 80px;
+	color: #ffffff;
+}
+
+.bookInput{
+	width: 50%;
+	height: 35px;
+}
+
+.srbook{
+	background-color: #444444;
+	font-family: arial;
+	color: #ffffff;
+	border: none;
+	width: 70px;
+	height: 35px;
+}
+
+.bookDetails{
+	margin:0 auto;
+	width: 70%;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.result_cover{
+background-color: #ddd;
+    opacity: 0.8;
+	width: 30%;
+	text-align: center;
+	padding: 20px;
+	color: #444444;
+	float: left;
+	font-weight: bold;
+}
+
+.result_title{
+background-color: #ddd;
+    opacity: 0.8;
+  margin:0 auto;
+	width: 30%;
+	text-align: center;
+	padding: 20px;
+	color: #444444;
+	font-weight: bold;
+
+}
+
+.result_description{
+background-color: #ddd;
+    opacity: 0.8;
+	width: 30%;
+	text-align: center;
+	padding: 20px;
+	color: #444444;
+	float: right;
+margin-top: -60px;
+font-weight: bold;
+}
