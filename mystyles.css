@@ -1,8 +1,9 @@
 body {
-	background-position: bottom;
+	background-position: top;
 	background-image: url("images/pexels-photo-24873.jpg");
 	background-position: cover;
-	background-repeat: no-repeat;]
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 	margin:0;
 	padding: 0;
 }
@@ -38,42 +39,58 @@ body {
 
 .bookDetails{
 	margin:0 auto;
-	width: 70%;
-	text-align: center;
+	width: 80%;
 	padding: 20px 0px;
+	background-color: #ddd;
+    opacity: 0.8;
 }
 
+ul{
+st-style-type: none;
+margin:0;
+padding: 0;
+}
+
+li {
+	display: inline-block;
+}
+
+
+.bookDetails{
+  width: 40%;
+
+}
+
+
 .result_cover{
-background-color: #ddd;
-    opacity: 0.8;
-	width: 30%;
-	text-align: center;
 	padding: 20px;
 	color: #444444;
-	float: left;
-	font-weight: bold;
+float: left;
+}
+
+.description {
+float: right;
+
 }
 
 .result_title{
-background-color: #ddd;
-    opacity: 0.8;
-  margin:0 auto;
-	width: 30%;
-	text-align: center;
-	padding: 20px;
-	color: #444444;
-	font-weight: bold;
+padding: 20px;
+color: #444444;
+font-weight: bold;
 
 }
 
-.result_description{
-background-color: #ddd;
-    opacity: 0.8;
-	width: 30%;
-	text-align: center;
+
+
+.result_author{
+padding: 20px;
+color: #444444;
+font-weight: bold;
+}
+
+
+.book{
 	padding: 20px;
 	color: #444444;
-	float: right;
-margin-top: -60px;
 font-weight: bold;
 }
